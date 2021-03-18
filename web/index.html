@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <title>Software Development Company | Sample</title>
+
+  <meta name="theme-color" content="#800080" />
+  <meta name="keywords"
+    content="software development company, custom software development, software, enterprise, development, developers, programming, i18n, internationalisation" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+  <style>
+    body {
+      background-color: #2F2F2F;
+    }
+  </style>
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="loader.css">
+
+  <!--  OG meta tags -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Let’s work together on your next big software project">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="513">
+  <meta property="og:image:height" content="513">
+  
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="web">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Twitter meta tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+
+<body>
+  <div class="loading">
+    <div class="dbl-spinner"></div>
+    <div class="dbl-spinner"></div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+
+</html>
